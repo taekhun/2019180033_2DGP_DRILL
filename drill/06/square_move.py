@@ -50,8 +50,8 @@ while(1):
          clear_canvas_now()
          grass.draw_now(400,30)
          character.draw_now(x, y)
-         x = 400 + (270 * math.cos(angle/360 * 2 * math.pi))
-         y = 310 + (270 * math.sin(angle/360 * 2 * math.pi))
+         x = 400 + (200 * math.cos(angle/360 * 2 * math.pi))
+         y = 310 + (200 * math.sin(angle/360 * 2 * math.pi))
          angle = angle + 2
          delay(0.001)
     angle = -90
